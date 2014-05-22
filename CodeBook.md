@@ -1,12 +1,12 @@
-##Getting and cleaning data. Course project 2. Code Book.##
+##Getting and cleaning data. Course project. Code Book.
 
-###Main files###
+###Main files
 
 README.md - contains the objectives of the project and the description of the algorithm
 CodeBook.md - contains the description of files and variables.
 run_analysis.R - the only R script file in the repo that performs all the transformations with the initial data and returns the tidy dataset.
 
-###Additional files###
+###Additional files
 
 These files will be downloaded by run_analysis.R 
 
@@ -15,7 +15,7 @@ Folder “UCI HAR Dataset” - unzipped data
 make sure you read README.txt in the unzipped folder to understand the data better.
 WearableDevicesTidyDataSet.csv - the output file with tidy data
 
-###Variables used###
+###Variables used
 
 fileUrl - used to store the web-address of the file with the initial data
 xtrain - data frame to store X_train.txt file contents
