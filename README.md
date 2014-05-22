@@ -1,5 +1,5 @@
-#Getting and cleaning data. Course project 2.# 
-##Description.##
+#Getting and cleaning data. Course project 2
+##Description.
 
 The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
 
@@ -14,9 +14,9 @@ It does the following:
 * Appropriately labels the data set with descriptive activity names. 
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-###The algorithm###
+###The algorithm
 
-Read the data files X_train.txt and X_test.txt. Rbinds them.
+Read the data files X_train.txt and X_test.txt. Rbind them.
 Read the vector of subjects performing the activities from files subject_train.txt and subject_test.txt. Rbinds them
 Read the vector of activities related to the measurements from files y_train.txt and y_test.txt. Rbinds them.
 Read the dictionaries (activity codes to activity names and feature codes to feature names) from files activity_labels.txt and features.txt
